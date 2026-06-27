@@ -141,3 +141,15 @@ dist
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 .vite/
+
+# ===================================================================
+# HACKATHON QWEN CLOUD - CERTIFICACIÓN DE SEGURIDAD ALIBABA CLOUD
+# ===================================================================
+.env
+.env.local
+node_modules/
+
+# Archivos basura del Sistema Operativo (Evita conflictos de carpetas)
+.DS_Store
+Thumbs.db
+Desktop.ini
