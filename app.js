@@ -1449,10 +1449,9 @@ window.renderChallenge = function (data) {
   } else {
     answerHtml = `
       <div class="numeric-area">
-        <input type="number" id="numeric-answer" class="numeric-input"
+        <input type="text" id="numeric-answer" class="numeric-input"
                placeholder="${t('enter_answer')}"
-               aria-label="Réponse numérique"
-               step="any" />
+               aria-label="Réponse" />
         <button class="validate-btn" onclick="window._checkNumeric()">${t('validate')}</button>
       </div>`;
   }
