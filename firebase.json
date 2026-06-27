@@ -1,0 +1,36 @@
+﻿{
+  "hosting": {
+    "target": "aimroyale",
+    "public": ".",
+    "ignore": [
+      "firebase.json",
+      ".firebaserc",
+      "**/.*",
+      "**/node_modules/**",
+      "node_modules",
+      ".venv/**",
+      ".venv",
+      "server.js",
+      "audit.js",
+      "find_free_models.js",
+      "test_regex.js",
+      "fermat_chroma_design_system.md",
+      "package.json",
+      "package-lock.json",
+      ".package-lock.json",
+      "pyvenv.cfg",
+      "**/*.exe",
+      "**/*.dll",
+      "**/*.bat",
+      "**/*.sh",
+      "**/*.py",
+      "**/*.pyc"
+    ],
+    "headers": [
+      {
+        "source": "**",
+        "headers": [{ "key": "Cache-Control", "value": "no-cache, no-store, must-revalidate" }]
+      }
+    ]
+  }
+}
